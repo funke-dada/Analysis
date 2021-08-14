@@ -9,9 +9,7 @@ SELECT Location as Continent, date, total_cases, new_cases, total_deaths, popula
    WHERE Location IN( 'Asia', 'South America', 'North America', 'Africa', 'Australia') 
    ORDER BY 1,2
 
-----select Location, date, total_cases, new_cases, total_deaths, population 
-----FROM PortfolioProject..Coviddeaths$
-----order by 1,2
+
 
 
 --Total cases versus total deaths
